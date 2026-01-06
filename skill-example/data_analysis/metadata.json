@@ -1,0 +1,14 @@
+{
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2024-01-01",
+      "changes": ["初始版本发布"]
+    }
+  ],
+  "related_skills": ["data_visualization", "statistical_analysis"],
+  "supported_languages": ["zh-CN", "en-US"],
+  "license": "MIT",
+  "repository": "https://gitee.com/org/skills-repo"
+}
+

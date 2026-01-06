@@ -1,0 +1,27 @@
+# 环境变量配置模板
+# 复制此文件为 .env 并填入你的配置
+
+# 必需：OpenAI API 密钥
+OPENAI_API_KEY=your-api-key-here
+
+# 可选：模型配置
+MODEL_NAME=gpt-4o
+TEMPERATURE=0.7
+
+# 必需：PostgreSQL 数据库配置
+DB_USER=postgres
+DB_PASSWORD=your-password-here
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=skill
+
+# 说明：
+# - OPENAI_API_KEY: 你的 OpenAI API 密钥（必需）
+# - MODEL_NAME: 使用的模型名称，可选值如：gpt-4o, gpt-4o-mini, gpt-3.5-turbo 等
+# - TEMPERATURE: 模型温度参数（0-2），控制输出的随机性，默认 0.7
+# - DB_USER: PostgreSQL 数据库用户名（必需）
+# - DB_PASSWORD: PostgreSQL 数据库密码（必需）
+# - DB_HOST: PostgreSQL 数据库主机地址，默认 localhost
+# - DB_PORT: PostgreSQL 数据库端口，默认 5432
+# - DB_NAME: PostgreSQL 数据库名称，默认 skill
+

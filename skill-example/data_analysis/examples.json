@@ -1,0 +1,26 @@
+{
+  "examples": [
+    {
+      "title": "基础数据分析",
+      "description": "对销售数据进行基础分析",
+      "input": "分析一下上个月的销售数据",
+      "expected_output": "数据概览、关键指标、趋势分析",
+      "api_calls": [
+        {
+          "api_name": "get_data_statistics",
+          "params": {
+            "data_id": "sales_202401",
+            "format": "json"
+          }
+        }
+      ]
+    },
+    {
+      "title": "数据质量检查",
+      "description": "检查数据完整性和质量",
+      "input": "检查这个数据集的质量",
+      "expected_output": "质量报告、缺失值统计、异常值列表"
+    }
+  ]
+}
+

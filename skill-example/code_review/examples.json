@@ -1,0 +1,11 @@
+{
+  "examples": [
+    {
+      "title": "Python 代码审查",
+      "description": "审查 Python 代码的质量和安全性",
+      "input": "请审查这段 Python 代码",
+      "expected_output": "代码质量评估、安全问题、改进建议"
+    }
+  ]
+}
+
